@@ -102,7 +102,7 @@
 #endif
 
 #ifdef _MSC_VER
-	#define snprintf _snprintf
+	//#define snprintf _snprintf
 	#define vsnprintf _vsnprintf
 #endif
 
@@ -235,8 +235,8 @@ if ((y) < (x)) {\
 #define srand srand_is_forbidden_due_to_state_trashing_use_av_lfg_init
 #undef  random
 #define random random_is_forbidden_due_to_state_trashing_use_av_lfg_get
-#undef  sprintf
-#define sprintf sprintf_is_forbidden_due_to_security_issues_use_snprintf
+//#undef  sprintf
+//#define sprintf sprintf_is_forbidden_due_to_security_issues_use_snprintf
 #undef  strcat
 #define strcat strcat_is_forbidden_due_to_security_issues_use_av_strlcat
 #undef  exit

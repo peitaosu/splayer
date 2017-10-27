@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug Unicode|Win32">
       <Configuration>Debug Unicode</Configuration>
@@ -27,25 +27,25 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <UseOfAtl>false</UseOfAtl>
     <CharacterSet>Unicode</CharacterSet>
@@ -440,7 +440,6 @@ echo #define MPC_REV_STR _T("") &gt;&gt;.\revision.h
       </PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="CShockwaveFlash.cpp" />
-    <ClCompile Include="DX7AllocatorPresenter.cpp" />
     <ClCompile Include="DX9AllocatorPresenter.cpp" />
     <ClCompile Include="EVRAllocatorPresenter.cpp" />
     <ClCompile Include="FakeFilterMapper2.cpp" />
@@ -619,7 +618,6 @@ echo #define MPC_REV_STR _T("") &gt;&gt;.\revision.h
     <ClInclude Include="..\..\..\Thirdparty\pkg\unrar.hpp" />
     <ClInclude Include="AllocatorCommon.h" />
     <ClInclude Include="CShockwaveFlash.h" />
-    <ClInclude Include="DX7AllocatorPresenter.h" />
     <ClInclude Include="DX9AllocatorPresenter.h" />
     <ClInclude Include="EVRAllocatorPresenter.h" />
     <ClInclude Include="FakeFilterMapper2.h" />

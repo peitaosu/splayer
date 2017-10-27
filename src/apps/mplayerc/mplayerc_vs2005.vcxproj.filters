@@ -425,9 +425,6 @@
     <ClCompile Include="CShockwaveFlash.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
-    <ClCompile Include="DX7AllocatorPresenter.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
     <ClCompile Include="DX9AllocatorPresenter.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
@@ -956,9 +953,6 @@
       <Filter>Graph</Filter>
     </ClInclude>
     <ClInclude Include="CShockwaveFlash.h">
-      <Filter>Graph</Filter>
-    </ClInclude>
-    <ClInclude Include="DX7AllocatorPresenter.h">
       <Filter>Graph</Filter>
     </ClInclude>
     <ClInclude Include="DX9AllocatorPresenter.h">

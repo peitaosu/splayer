@@ -59,7 +59,7 @@
 |       Win32 specifics
 +---------------------------------------------------------------------*/
 #if defined(WIN32) || defined(_WIN64)
-#define snprintf _snprintf
+//#define snprintf _snprintf
 #if _MSC_VER < 1500 
 #define vsnprintf _vsnprintf
 #endif
