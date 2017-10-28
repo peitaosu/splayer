@@ -40,7 +40,7 @@
 
 #define AP4_CONFIG_HAVE_CPP_STRING
 
-#define AP4_CONFIG_HAVE_SNPRINTF
+//#define AP4_CONFIG_HAVE_SNPRINTF
 
 /*----------------------------------------------------------------------
 |       byte order
